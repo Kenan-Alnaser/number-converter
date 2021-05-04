@@ -1,3 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  background: black;
+  background: linear-gradient(90deg, black 0%, #2a2a2a 62%, #4b4b4b 100%);
+  color: white;
+}
+
+main {
+  width: 50vw;
+  height: 50vh;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
