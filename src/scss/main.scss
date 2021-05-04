@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(42, 42, 42, 1) 62%,
+    rgba(75, 75, 75, 1) 100%
+  );
+  color: white;
+}
+main {
+  width: 50vw;
+  height: 50vh;
+}
+input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
