@@ -22,14 +22,18 @@ body {
 main {
   width: 50vw;
   height: 50vh;
+  position: relative;
+  left: 10rem;
 }
 input {
   border: none;
   background-color: transparent;
   color: white;
+  font-size: larger;
 }
 button {
   border: none;
   background-color: transparent;
   color: white;
+  font-size: large;
 }
