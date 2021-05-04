@@ -7,11 +7,11 @@ function registerUserValue(e) {
   userNumber = e.target.value;
 }
 
-function convert() {
+function convert(e) {
+  e.preventDefault();
   currentNumber = parseInt(userNumber);
-  return (result.innerHTML = currentNumber.toString(2));
+  result.innerHTML = `${currentNumber} = ${currentNumber.toString(2)}`;
 }
 
 userInput.addEventListener("keyup", registerUserValue);
 convertBtn.addEventListener("click", convert);
-e.preventDefault();
